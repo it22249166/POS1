@@ -1,0 +1,31 @@
+{
+  "name": "pos1",
+  "version": "1.0.0",
+  "description": "Complete POS System using MERN stack",
+  "main": "index.js",
+  "scripts": {
+   "start": "node server.js",
+   "server": "nodemon server.js",
+   "seed": "node seeder.js"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it22249166/POS1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it22249166/POS1/issues"
+  },
+  "homepage": "https://github.com/it22249166/POS1#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1",
+    "morgan": "^1.10.0"
+  }
+}

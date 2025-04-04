@@ -1,0 +1,80 @@
+/* Logo Styling */
+.logo {
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Sidebar Toggle Button */
+  .trigger {
+    font-size: 22px;
+    padding: 0 24px;
+    cursor: pointer;
+    color: #a0aec0;
+    transition: all 0.3s ease;
+  }
+  
+  .trigger:hover {
+    color: #00c9a7; /* Cyan Hover */
+    transform: scale(1.1);
+  }
+  
+  /* Layout Background */
+  .site-layout-background {
+    background: #d7dbe1; /* Soft Gray Background */
+  }
+  
+  /* Selected Sidebar Item */
+  .custom-sidebar .ant-menu-item-selected {
+    background-color: #00c9a7 !important; /* Cyan Active */
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 6px 12px;
+  }
+  
+  /* Sidebar Item Hover */
+  .custom-sidebar .ant-menu-item:hover {
+    background-color: #00c9a722 !important;
+    color: #ffffff;
+    border-radius: 8px;
+    margin: 6px 12px;
+  }
+  
+  /* Smooth Sidebar Toggle */
+  .site-layout {
+    transition: margin-left 0.3s ease;
+  }
+  
+  .collapsed-layout {
+    margin-left: 80px !important;
+  }
+  
+  /* Header Styling */
+  .ant-layout-header {
+    background: #1a202c; /* Dark Blue-Gray */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Avatar Color */
+  .ant-avatar {
+    background-color: #00c9a7; /* Cyan Avatar */
+  }
+  
+  /* Light Text */
+  .text-light {
+    color: #e2e8f0; /* Light Gray Text */
+  }
+  
+  /* Dropdown Hover */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .text-light:hover {
+    color: #00c9a7;
+  }

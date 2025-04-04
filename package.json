@@ -1,13 +1,16 @@
 {
+  "proxy":"http://localhost:8080",
   "name": "pos1",
   "version": "1.0.0",
   "description": "Complete POS System using MERN stack",
   "main": "index.js",
   "scripts": {
-   "start": "node server.js",
-   "server": "nodemon server.js",
-   "seed": "node seeder.js"
-   
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client":"npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node seeder.js"
+    
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,8 @@
   "dependencies": {
     "body-parser": "^2.2.0",
     "colors": "^1.4.0",
+    "concu": "^0.0.4",
+    "concurrently": "^9.1.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",

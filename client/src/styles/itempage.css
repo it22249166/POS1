@@ -1,0 +1,8 @@
+.panel-card {
+  border-radius: 10px;
+}
+
+.item-image {
+  height: 180px;
+  object-fit: cover;
+}
